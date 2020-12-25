@@ -1,0 +1,157 @@
+/*
+	Name : Mehanović Ešref
+	Course : CS412
+	Assignment : Project 6
+	Due date : 25.12.2020.
+	Purpose : Add style to website
+*/
+
+body, html {
+    	margin: 0px;
+    	padding: 30px;
+    	/*
+    	background: url('kyoko.png') no-repeat center fixed;     
+    	background-size: cover;
+    	*/
+
+    	/*background-color: #F3B05A;*/
+    	background-color: #f2f2f2;
+    	font-family: 'Trebuchet MS';
+	}
+
+h1 ,h2 {
+		font-size : 40px;
+		text-align : center;
+		color :#FFFFFF;
+		background-color: #228B22;
+	} 
+
+h3 {
+	 font-size : 20px;
+		text-align : left;
+		color :#000000;
+		/*background-color: #000000;*/
+	} 
+
+p   {
+		text-align: justify;
+		color : #000000;
+		/*background-color: #000000;*/
+	}
+
+div.content{
+		max-width: 60%;
+  	margin: auto;
+  	text-align: justify;
+  	float: center;
+  	overflow: auto;
+  	padding: 0px;
+  	border-spacing: 20px;
+  	background-color: #FFFFFF;
+    border :1px solid #ccc;
+	}
+
+  div.content{
+    max-width: 45%;
+    margin: auto;
+    text-align: justify;
+    float: center;
+    overflow: auto;
+    padding: 0px;
+    border-spacing: 20px;
+    background-color: #FFFFFF;
+    border :1px solid #ccc;
+  }
+
+
+div.iframe {
+  text-align:center;
+  width:100%;
+}
+
+/*div.bottom {
+    	background-color:#000000;
+    	width:100%;
+    	height:18%;
+   	 	bottom:0px;
+    	left:0px;
+       	margin : 0px;
+	}*/
+
+div.form {
+		max-width: 40%;
+  	margin: auto;
+  	border: 3px solid #000000;
+  	color: #000000;
+  	background-color: #F3B05A;
+  	text-align: center;
+  }
+
+div.follow {
+		position: fixed;
+		top: 40px;
+		text-align: center;
+		max-width: 50%;
+  	margin: auto;
+  	border: 3px solid;
+  	background-color: #000000;
+	}
+
+#navbar {
+  overflow: hidden;
+  background-color: #228B22;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+     background-color: #111;
+  }
+
+.center {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 65%;
+    height: auto;
+	}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 389px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+div.gallery_large {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 780px;
+}
+
+div.gallery_large img {
+  width: 100%;
+  height: 100%;
+}
+
